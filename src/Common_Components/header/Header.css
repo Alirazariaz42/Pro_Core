@@ -1,0 +1,217 @@
+.nav-link a.active {
+  color: #ff7518 !important;
+  /* text-shadow: 1px 01px 01px black; */
+}
+.nav-link a {
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 18px;
+}
+.FacebookIcon {
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+}
+.FacebookIcon:hover {
+  padding: 2px;
+  transition: 0.4s;
+  background-color: rgb(21, 21, 129);
+  border-radius: 10px;
+}
+.LinkedIcon {
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+}
+.LinkedIcon:hover {
+  padding: 2px;
+  transition: 0.4s;
+  background-color: rgb(21, 95, 129);
+  border-radius: 14px;
+}
+.nav-link {
+  color: black !important;
+  padding: 0px 20px !important;
+}
+.dis_None_onSmallDisipay {
+  display: block;
+}
+.nav-link:hover {
+  border-radius: 15px;
+
+  background: rgba(243, 107, 33, 0.41);
+  color: black !important;
+  transition: 0.1s;
+}
+.LOGO_BG {
+  background-image: url("../../Images/logo.png");
+  background-size: 100% 100%;
+}
+.header {
+  display: flex;
+  background-color: rgb(34, 34, 34);
+  border: 1px solid white;
+  padding: 10px;
+}
+.headerText {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.TURNAROUND_Time {
+  color: white;
+  font-size: 15px;
+  padding: 0px;
+  margin: 3px;
+  letter-spacing: 1.5px;
+  font-family: Segoe UI;
+}
+.Affordable_text {
+  color: black;
+  background-color: rgba(243, 107, 33, 0.993);
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+.headerNumber {
+  color: white;
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.headerSocialIcons {
+  color: white;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarContainerstyle {
+  background-color: #e1e3e5 !important ;
+}
+.blinking-text {
+  font-weight: 600;
+  animation: blink 1s infinite; /* Use the 'blink' animation with a 1-second duration and infinite loop */
+}
+.blinking-textClickHere {
+  font-weight: 600;
+  animation: clickhere 1.4s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    background-color: #ff3b18;
+    box-shadow: 1px 1px 10px 1px rgb(190, 123, 22);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes clickhere {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-link {
+    color: black !important;
+    padding: 0px 10px !important;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-link {
+    color: black !important;
+    padding: 0px 12px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-link {
+    color: black !important;
+    padding: 0px 10px !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .nav-link {
+    color: black !important;
+    padding: 12px 10px !important;
+  }
+
+  .navbarContainerstyle .nav-link a {
+    font-size: 16px;
+  }
+
+  .navbarContainerstyle .nav-link.active {
+    color: orange !important;
+  }
+  .navbar-toggler {
+    background-color: white !important;
+  }
+  .LOGO_BG {
+    background-image: url("../../Images/LogoWhite.png");
+    background-size: 100% 100%;
+  }
+  .nav-link a.active {
+    color: #ff7518 !important;
+    /* text-shadow: 1px 01px 01px black; */
+  }
+}
+@media screen and (max-width: 990px) {
+  .nav-link {
+    color: black !important;
+    padding: 15px 15px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .headerNumber {
+    color: white;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dis_None_onSmallDisipay {
+    display: none;
+  }
+  .headerText {
+    display: none;
+  }
+  .headerNumber {
+    color: white;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .headerNumber {
+    color: white;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

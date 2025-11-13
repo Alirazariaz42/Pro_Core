@@ -1,0 +1,217 @@
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0px;
+  margin:10px 200px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff6600;
+  border-radius: 10px;
+  
+
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9e3f00;
+  border-radius: 5px;
+}
+
+
+.ModalContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.705);
+  padding: 2% 300px;
+  position: fixed;
+  top: 0px;
+  z-index: 02;
+  overflow: hidden;
+}
+.dummuclass {
+  background-color: rgb(17, 16, 16);
+  border-radius: 15px;
+ 
+  overflow: auto;
+  padding: 40px;
+  position: relative;
+}
+.Drawing {
+  text-align: center;
+  color: white;
+}
+.note {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+}
+.closebtn {
+  color: #ff7518;
+  border: 2px solid #ff7518;
+  background-color: black;
+  border-radius: 26px;
+  padding: 0px 10px;
+  font-size: 22px;
+  margin-top: 10px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.form_controlstyle {
+  font-size: 17px !important;
+  font-weight: bold !important;
+  transition: 0.5s linear;
+}
+.form_controlstyle:focus {
+  border: 2px solid #ff7518 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 117, 13, 0.425) !important;
+}
+.form_controlstyle:hover {
+  outline: 0;
+  box-shadow: 03px 0px 20px rgb(253, 117, 13) !important;
+}
+.form_controlstyle2 {
+  font-size: 17px !important;
+  font-weight: bold !important;
+  color: white !important;
+  background-color: black !important;
+  border: 2px solid #ff7518 !important;
+  box-shadow: 0 0 0 0.25rem rgba(253, 117, 13, 0.425) !important;
+  transition: 0.5s linear !important;
+}
+.form_controlstyle2:focus {
+  border: 2px solid #ff7518 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 117, 13, 0.425) !important;
+}
+.form_controlstyle2:hover {
+  outline: 0;
+  box-shadow: 03px 0px 20px rgb(253, 117, 13) !important;
+}
+.SubmitBtn {
+  border: 1px solid #ff7518 !important;
+  color: black !important;
+  font-weight: 700 !important;
+  background-color: #ff7518 !important;
+  transition: 0.5s !important;
+}
+.SubmitBtn:hover {
+  border: 1px solid #ff6600;
+  color: rgb(255, 255, 255) !important;
+  background-color: black !important;
+  transition: 0.5s;
+}
+.alertMessage{
+  position: absolute;
+  color:#ff7518;
+  top: 50%;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  left: 40%;
+  
+  border: 1px solid  #ff6600 ;
+}
+
+@media screen and (max-width: 1100px) {
+  .ModalContainer {
+    width: 100%;
+    height: 100vh;
+    padding: 1% 230px;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .ModalContainer {
+      width: 100%;
+      height: 100vh;
+      padding: 1% 150px;
+      position: fixed;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .ModalContainer {
+      width: 100%;
+      height: 100vh;
+      padding: 1% 100px;
+      position: fixed;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .ModalContainer {
+      width: 100%;
+      height: 100vh;
+      padding: 1% 10px;
+      position: fixed;
+    }
+
+    .note {
+       display: none;
+      }
+  }
+
+  @media screen and (max-width: 450px) {
+    .alertMessage{
+      position: absolute;
+      color:#ff7518;
+      top: 60%;
+      background-color: #000000;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: 700;
+      left: 25%;
+      
+      border: 1px solid  #ff6600 ;
+    }
+  }
+
+
+  /* @media screen and (max-height: 700px) {
+   
+    .dummuclass {
+      background-color: rgb(17, 16, 16);
+      border-radius: 15px;
+      
+      overflow: auto;
+      padding: 40px;
+      position: relative;
+    }
+
+    .note {
+       display: block;
+      }
+  } */
+
+  @media screen and (max-height: 620px) {
+   
+    .dummuclass {
+      background-color: rgb(17, 16, 16);
+      border-radius: 15px;
+      height: 500px;
+      overflow: auto;
+      padding: 40px;
+      position: relative;
+    }
+
+    .note {
+       display: none;
+      }
+  }

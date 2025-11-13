@@ -1,0 +1,276 @@
+.MainImgContainer{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+.MainImgContainer img{
+    width: 600px;
+    height: 100%;
+}
+.verticalDivContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.verticalDivTextContainer{
+    width: 50%;
+    text-align: center;
+}
+.verticalDivRectangle{
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+    margin: 10px;
+    border-radius: 10px;
+    border-right: 23px solid #FF7518;
+    border-left: 23px solid #FF7518;
+   
+}
+.verticalDivRectangle h1{
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+}
+.verticalDivRectangle p{
+    color: white;
+    font-size: 14px;
+}
+.Heading{
+    font-weight: bolder;
+    color: #FF7518;
+    font-size: 28px;
+
+}
+
+.blacktext{
+    color: black;
+}
+.MainParagraphContainer{
+    width: 60% !important;
+    margin-top: 140px;
+}
+.whiteDiv{
+    height: 140px;
+    padding: 20px;
+    width: 140px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;border-radius: 100px; box-shadow: 0px 0px 20px rgb(102, 92, 92);
+}
+.yellowDiv{
+    height: 350px;
+    width: 350px;
+    background-color: #FF7518;
+    display: flex;
+    align-items: center;
+    justify-content: center;border-radius: 200px;
+    box-shadow: 0px 0px 20px black;
+}
+.orrangeDiv{
+    height: 500px;
+    width: 500px;
+    background-color: #F54703;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px;
+    box-shadow: 0px 0px 60px #F54703;
+   
+    
+}
+.CircilerDivesContainer{
+    position: absolute;
+    top: -140px;
+    right: -132px;
+    z-index: 0;
+}
+
+@media screen and (max-width:800px) {
+    .MainParagraphContainer{
+        width: 60% !important;
+        margin-top: 140px;
+    }
+    .whiteDiv{
+        height: 140px;
+        padding: 20px;
+        width: 140px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;border-radius: 100px; box-shadow: 0px 0px 20px rgb(102, 92, 92);
+    }
+    .yellowDiv{
+        height: 300px;
+        width: 300px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;border-radius: 200px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .orrangeDiv{
+        height: 430px;
+        width: 430px;
+        background-color: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 300px;
+        box-shadow: 0px 0px 60px orangered;
+       
+        
+    }
+    .CircilerDivesContainer{
+        position: absolute;
+        top: -140px;
+        right: -132px;
+        z-index: 0;
+    }
+    .verticalDivTextContainer {
+        width: 70%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .MainParagraphContainer{
+        width: 92% !important;
+        margin-top: 250px;
+    }
+    .MainImgContainer img {
+        width: 500px;
+        height: 400px;
+    }
+    .whiteDiv{
+        height: 140px;
+        padding: 20px;
+        width: 140px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;border-radius: 100px; box-shadow: 0px 0px 20px rgb(102, 92, 92);
+    }
+    .yellowDiv{
+        height: 300px;
+        width: 300px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;border-radius: 200px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .orrangeDiv{
+        height: 430px;
+        width: 430px;
+        background-color: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 300px;
+        box-shadow: 0px 0px 60px orangered;
+    }
+    .CircilerDivesContainer{
+        position: absolute;
+        top: -140px;
+        right: -132px;
+        z-index: 0;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .MainParagraphContainer{
+        width: 100% !important;
+        margin-top: 280px;
+        padding: 5px;
+    }
+    .MainImgContainer img {
+        width: 400px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .verticalDivRectangle {
+        width: 400px;
+        padding: 10px;
+        background-color: rgb(54, 54, 54);
+        margin: 10px;
+        border-radius: 10px;
+        border-right: 23px solid #FF7518;
+        border-left: 23px solid #FF7518;
+    }
+
+    .whiteDiv{
+        height: 140px;
+        padding: 20px;
+        width: 140px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;border-radius: 100px; box-shadow: 0px 0px 20px rgb(102, 92, 92);
+    }
+    .yellowDiv{
+        height: 300px;
+        width: 300px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;border-radius: 200px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .orrangeDiv{
+        height: 430px;
+        width: 430px;
+        background-color: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 300px;
+        box-shadow: 0px 0px 60px orangered;
+       
+        
+    }
+    .CircilerDivesContainer{
+        position: absolute;
+        top: -170px;
+        right: -162px;
+        z-index: 0;
+    }
+    .paragraph {
+        color: black;
+        font-size: 18px;
+    }
+    .verticalDivTextContainer {
+        width: 80%;
+        text-align: center;
+    }
+    .MainImgContainer {
+        height: 450px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:400px) {
+    .MainImgContainer img {
+        width: 300px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .MainImgContainer {
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    .verticalDivRectangle {
+        width: 350px;
+        padding: 10px;
+        background-color: rgb(54, 54, 54);
+        margin: 10px;
+        border-radius: 10px;
+        border-right: 23px solid #FF7518;
+        border-left: 23px solid #FF7518;
+    }
+    .paragraph {
+        color: black;
+        font-size: 16px;
+    }
+}

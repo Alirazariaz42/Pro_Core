@@ -1,0 +1,290 @@
+.testimonialContainer {
+  border: 1px solid;
+  height: 560px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(54, 54, 54);
+}
+.imgContainerCentral {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 130px;
+  overflow: hidden;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 1px 1px 22px #FF7518;
+  transition: .3s linear;
+}
+.imgContainerCentral:hover{
+    width: 210px;
+    height: 210px;
+    transition: .3s linear;
+}
+.imgContainer4_5 {
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 80px;
+  margin-top: 230px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.imgContainer2_3 {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 80px;
+  margin-top: 90px;
+  opacity: 0.5;
+}
+.arrowsContainer {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  bottom: 14px;
+}
+.arrowsContainer button {
+  margin: 10px;
+  padding: 2px 4px;
+  background-color: #ff7518;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.arrowsContainer button:hover {
+  margin: 10px;
+  padding: 2px 4px;
+  background-color: orangered;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.QuotesContainer{
+    color: white;
+    position: absolute;
+    width: 455px;
+    top: 280px;
+}
+
+
+@media screen and (max-width:750px) {
+    .imgContainerCentral {
+        background-color: white;
+        width: 160px;
+        height: 160px;
+        border-radius: 130px;
+        overflow: hidden;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 1px 1px 22px #FF7518;
+        transition: .3s linear;
+      }
+      .imgContainerCentral:hover{
+          width: 170px;
+          height: 170px;
+          transition: .3s linear;
+      }
+      .imgContainer4_5 {
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 80px;
+        margin-top: 210px;
+        overflow: hidden;
+        opacity: 0.5;
+      }
+      .imgContainer2_3 {
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 80px;
+        margin-top: 90px;
+        opacity: 0.5;
+      }
+      .testimonialContainer {
+        border: 1px solid;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding: 10px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(54, 54, 54);
+      }
+}
+
+@media screen and (max-width:750px) {
+    .imgContainerCentral {
+        background-color: white;
+        width: 160px;
+        height: 160px;
+        border-radius: 130px;
+        overflow: hidden;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 1px 1px 22px #FF7518;
+        transition: .3s linear;
+      }
+      .imgContainerCentral:hover{
+          width: 170px;
+          height: 170px;
+          transition: .3s linear;
+      }
+      .imgContainer4_5 {
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 80px;
+        margin-top: 210px;
+        overflow: hidden;
+        opacity: 0.5;
+      }
+      .imgContainer2_3 {
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 80px;
+        margin-top: 90px;
+        opacity: 0.5;
+      }
+      .testimonialContainer {
+        border: 1px solid;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding: 10px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(54, 54, 54);
+      }
+}
+
+@media screen and (max-width:500px) {
+    .imgContainerCentral {
+        background-color: white;
+        width: 120px;
+        height: 120px;
+        border-radius: 130px;
+        overflow: hidden;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 1px 1px 22px #FF7518;
+        transition: .3s linear;
+      }
+      .imgContainerCentral:hover{
+          width: 130px;
+          height: 130px;
+          transition: .3s linear;
+      }
+      .imgContainer4_5 {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 80px;
+        margin-top: 160px;
+        overflow: hidden;
+        opacity: 0.5;
+      }
+      .imgContainer2_3 {
+        background-color: white;
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 80px;
+        margin-top: 90px;
+        opacity: 0.5;
+      }
+      .testimonialContainer {
+        border: 1px solid;
+        height: 470px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding: 10px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(54, 54, 54);
+      }
+      .QuotesContainer {
+        color: white;
+        position: absolute;
+        width: 350px;
+        top: 220px;
+    }
+    .QuotesContainer h3{
+        font-size: 19px;
+    }
+    .QuotesContainer p{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .imgContainerCentral {
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        border-radius: 130px;
+        overflow: hidden;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 1px 1px 22px #FF7518;
+        transition: .3s linear;
+      }
+      .imgContainerCentral:hover{
+          width: 130px;
+          height: 130px;
+          transition: .3s linear;
+      }
+      .imgContainer4_5 {
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 80px;
+        margin-top: 160px;
+        overflow: hidden;
+        opacity: 0.5;
+      }
+      .imgContainer2_3 {
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        border-radius: 80px;
+        margin-top: 90px;
+        opacity: 0.5;
+      }
+      .testimonialContainer {
+        border: 1px solid;
+        height: 470px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding: 10px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(54, 54, 54);
+      }
+      .QuotesContainer {
+        color: white;
+        position: absolute;
+        width: 300px;
+        top: 210px;
+    }
+    
+    .QuotesContainer h3{
+        font-size: 18px;
+    }
+    .QuotesContainer p{
+        font-size: 15px;
+    }
+}

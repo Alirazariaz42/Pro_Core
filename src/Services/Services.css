@@ -1,0 +1,545 @@
+.ServiceImgRotaterContainer {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(51, 50, 50);
+  position: relative;
+}
+.ServiceImgRotatorimg {
+  height: 100%;
+  width: 100%;
+}
+
+.ServiceImgRotatorimg1 {
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  position: absolute;
+  top: 320px;
+  right: 60px;
+  border: 1px solid black;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.showonSmallDevices{
+  display: none;
+}
+.ServiceImgRotatorimg2 {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  position: absolute;
+  top: 200px;
+  right: 300px;
+  border: 1px solid black;
+  overflow: hidden;
+  opacity: 1;
+  border: 06px solid #ff7518;
+  box-shadow: 0px 0px 14px #ff7518;
+}
+.ServiceImgRotatorimg3 {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  position: absolute;
+  bottom: -60px;
+  right: 300px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.ServiceImgRotatorimg4 {
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  position: absolute;
+  top: 320px;
+  right: 540px;
+  border: 1px solid black;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.ServiceImgRotatorimg5 {
+  background-color: white;
+  height: 70px;
+  width: 120px;
+  /* border-radius: 100px; */
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  position: absolute;
+  bottom: -1px;
+  right: 630px;
+  border: 1px solid black;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.ServiceImgRotaterContainer img {
+  position: absolute;
+}
+.DownArrow1 {
+  background-color: #ff7518;
+  position: absolute;
+  bottom: 10px;
+  width: 35px;
+  right: 180px;
+  height: 35px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  animation: blink-animation 1.3s infinite;
+}
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+    box-shadow: 0px 0px 1px 5px #ff7518;
+    bottom: 05px;
+  }
+  50% {
+    box-shadow: 0px 0px 20px black;
+    bottom: 10px;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 5px #ff7518;
+    bottom: 05px;
+  }
+}
+@keyframes blink-animation2 {
+  0% {
+    opacity: 1;
+    box-shadow: 0px 0px 1px 5px black;
+    bottom: 10px;
+  }
+  50% {
+    box-shadow: 0px 0px 20px #ff7518;
+    bottom: 5px;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 5px black;
+    bottom: 10px;
+  }
+}
+.DownArrow1 img {
+  width: 60%;
+  height: 60%;
+}
+.DownArrow2 {
+  background-color: #ff7518;
+  position: absolute;
+  bottom: 10px;
+  right: 520px;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  animation: blink-animation2 1.3s infinite;
+}
+.DownArrow2 img {
+  width: 60%;
+  height: 60%;
+}
+.ReferancePagesContainer {
+  color: white;
+  padding: 50px;
+  width: 550px;
+  transition: 1s linear;
+}
+.ReferancePagesContainer h3 {
+  font-weight: 700;
+}
+.ReferancePagesContainerHide {
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+.ReferancePagesContainerShow {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+.redirecttoPageLink {
+  color: #ff7518;
+  font-weight: 700;
+  transition: 0.2s linear;
+}
+.redirecttoPageLink:hover {
+  color: #c04f03;
+  font-weight: 700;
+  transition: 0.2s linear;
+}
+.fourBoxes {
+  min-height: 270px !important;
+  font-size: 14px !important;
+}
+
+@media screen and (min-height: 800px) {
+  .fourBoxes {
+    min-height: 350px !important;
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ReferancePagesContainer {
+    color: white;
+    padding: 50px;
+    width: 100%;
+  }
+  .ServiceImgRotatorimg1 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 320px;
+    right: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg2 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    top: 240px;
+    right: 250px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 1;
+    border: 06px solid #ff7518;
+    box-shadow: 0px 0px 14px #ff7518;
+  }
+  .ServiceImgRotatorimg3 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -60px;
+    right: 250px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .ServiceImgRotatorimg4 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 320px;
+    right: 490px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg5 {
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    position: absolute;
+    bottom: 0px;
+    right: 580px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .DownArrow2 {
+    right: 420px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ServiceImgRotatorimg1 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 370px;
+    right: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .DownArrow1 {
+    right: 100px;
+  }
+  .ServiceImgRotatorimg2 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    top: 270px;
+    right: 210px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 1;
+    border: 06px solid #ff7518;
+    box-shadow: 0px 0px 14px #ff7518;
+  }
+  .ServiceImgRotatorimg3 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -60px;
+    right: 210px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .ServiceImgRotatorimg4 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 370px;
+    right: 450px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg5 {
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    position: absolute;
+    bottom: 0px;
+    right: 540px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .DownArrow2 {
+    right: 353px;
+  }
+  .ServiceImgRotatorimg1 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    top: 400px;
+    right: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg2 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    top: 280px;
+    right: 190px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 1;
+    border: 06px solid #ff7518;
+    box-shadow: 0px 0px 14px #ff7518;
+  }
+  .ServiceImgRotatorimg3 {
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -60px;
+    right: 190px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .ServiceImgRotatorimg4 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    top: 400px;
+    right: 380px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg5 {
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    position: absolute;
+    bottom: 0px;
+    right: 450px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ServiceImgRotaterContainer {
+    display: none;
+  }
+  .showonSmallDevices{
+    display: block;
+  }
+}
+@media screen and (max-width: 560px) {
+  .DownArrow1 {
+    right: 100px;
+    top: 400px;
+  }
+
+  .DownArrow2 {
+    left: 100px;
+    top: 400px;
+  }
+
+  .ServiceImgRotatorimg1 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    top: 533px;
+    right: 108px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg2 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    top: 415px;
+    right: 240px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 1;
+    border: 6px solid #ff7518;
+    box-shadow: 0px 0px 14px #ff7518;
+  }
+  .ServiceImgRotatorimg3 {
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 51px;
+    right: 252px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .ServiceImgRotatorimg4 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    top: 543px !important;
+    left: 70px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg5 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .ServiceImgRotatorimg1 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    top: 250px;
+    right: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg2 {
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    position: absolute;
+    top: 120px;
+    right: 150px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 1;
+    border: 06px solid #ff7518;
+    box-shadow: 0px 0px 14px #ff7518;
+  }
+  .ServiceImgRotatorimg3 {
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    position: absolute;
+    top: 310px;
+    right: 140px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .ServiceImgRotatorimg4 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    top: 250px;
+    right: 310px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .ServiceImgRotatorimg5 {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 100px;
+    right: 310px;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .ServiceImgRotaterContainer {
+    display: none;
+  }
+}

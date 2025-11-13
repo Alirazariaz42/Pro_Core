@@ -1,0 +1,38 @@
+.FooterContainer{
+    background-color: black;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+}
+.FooterDescription{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.footerLinks h1{
+    margin: 30px 0px;
+    color: white;
+}
+.footerLinks h4{
+    margin: 30px 0px;
+    color: white;
+}
+
+.footerLinks p{
+    margin: 36px 0px;
+    color: white;
+}
+
+
+@media screen and (max-width:576px) {
+    .footerLinks h1, h4{
+        margin: 12px 0px;
+        color: white;
+    }
+    
+    .footerLinks p{
+        margin: 14px 0px;
+        color: white;
+    }
+}

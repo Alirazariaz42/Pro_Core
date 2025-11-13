@@ -1,0 +1,282 @@
+.orangeBG {
+  background-color: #ff7518;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.carousel-indicators {
+
+  z-index: 1 !important;
+}
+.CarousalMT{
+  padding-top: 135px ;
+}
+.orangeBGUploadPlans {
+  background-color: #ff7518;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  border: none;
+  transition: 0.5s;
+}
+.crausalImgHeight {
+  height: 500px;
+  width: 100%;
+}
+.orangeBGUploadPlans:hover {
+  background-color: #e45b00;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 800;
+  color: rgb(41, 41, 41);
+  border: none;
+  transition: 0.5s;
+}
+.carousalHeading {
+  font-size: 38px !important;
+  font-weight: 800;
+  color: white;
+  text-shadow: 01px 01px 2px black;
+}
+.carousal2ndHeading {
+  font-size: 28px !important;
+  font-weight: 800;
+  color: white;
+  text-align: left;
+  text-shadow: 01px 01px 2px black;
+}
+.carousal2ndSubHeading {
+  text-align: left;
+  font-size: 20px !important;
+  color: white;
+  text-shadow: 01px 01px 2px black;
+}
+.align_left {
+  width: 40%;
+  margin-left: 0px;
+}
+.carousalSubHeading {
+  font-size: 30px !important;
+  color: white;
+  text-shadow: 01px 01px 2px black;
+}
+.Carousal_ItemInner_TextContainer {
+  position: absolute !important;
+  right: 15% !important;
+  bottom: 10.25rem !important;
+  left: 15% !important;
+}
+.Carousal_ItemInner_TextContainer2 {
+  position: absolute !important;
+  right: 15% !important;
+  bottom: 5.25rem !important;
+  left: 15% !important;
+}
+.carousel-indicators button {
+  background-color: #ff7518 !important;
+}
+.RoundedCardsouterContainer {
+  background-color: rgb(37, 36, 36);
+}
+.RoundedCardsContainer {
+  width: 95% !important;
+  overflow: auto;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.BlackBg {
+  background-color: rgb(39, 39, 39);
+  color: white !important;
+  padding: 40px 30px;
+}
+.YchooseUsText {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.SampleImgContainer{
+  transition: .2s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.SampleImgContainer img{
+  width: 99%;
+  height: 99%;transition: 0.2s linear;
+}
+
+.SampleImgContainer img:hover{
+  width: 101%;
+  height: 101%;transition: 0.2s linear;
+}
+
+.SampleImgContainer:hover {
+ 
+  box-shadow: 0px 0px 16px 05px #3b3938;
+  transition: 0.2s linear;
+  border-radius: 15px;
+  
+}
+.FourCardPadding{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .YchooseUsText {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  .align_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Carousal_ItemInner_TextContainer2 {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 8.25rem !important;
+    left: 15% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BlackBg {
+    background-color: rgb(39, 39, 39);
+    color: white !important;
+    padding: 40px 10px;
+  }
+  .carousalHeading {
+    font-size: 30px !important;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .carousalSubHeading {
+    font-size: 26px !important;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .orangeBG {
+    display: inline-block;
+  }
+  .carousal2ndHeading {
+    font-size: 23px !important;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+  }
+  .carousal2ndSubHeading {
+    text-align: left;
+    font-size: 18px !important;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  .Carousal_ItemInner_TextContainer {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 5.25rem !important;
+    left: 15% !important;
+  }
+  .Carousal_ItemInner_TextContainer2 {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 5.25rem !important;
+    left: 15% !important;
+  }
+
+  .CardOuterBody {
+    height: 500px !important;
+    width: 250px;
+    transition: 0.5s linear;
+  }
+  .RoundedCardContainer {
+    width: 210px !important;
+    height: 430px !important;
+    background-color: white;
+    padding: 30px;
+    margin: 8px;
+    border-radius: 155px;
+    overflow: hidden;
+  }
+  .RoundedCardImgContainer {
+    width: 140px !important;
+    height: 140px !important;
+    border-radius: 100px;
+
+    overflow: hidden;
+    margin-left: 14px !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .carousalHeading {
+    font-size: 25px !important;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .carousalSubHeading {
+    font-size: 22px !important;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .orangeBG {
+    display: inline-block;
+  }
+  .carousal2ndHeading {
+    font-size: 21px !important;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+  }
+  .carousal2ndSubHeading {
+    text-align: left;
+    font-size: 16px !important;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  .Carousal_ItemInner_TextContainer {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 4.25rem !important;
+    left: 15% !important;
+  }
+  .Carousal_ItemInner_TextContainer2 {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 4.25rem !important;
+    left: 15% !important;
+  }
+  .crausalImgHeight {
+    height: 427px;
+    width: 100%;
+  }
+  .RoundedCardContainer {
+    width: 180px !important;
+    height: 410px !important;
+    background-color: white;
+    padding: 30px;
+    margin: 8px;
+    border-radius: 155px;
+    overflow: hidden;
+  }
+  .RoundedCardImgContainer {
+    width: 130px !important;
+    height: 130px !important;
+    border-radius: 100px;
+
+    overflow: hidden;
+    margin-left: 7px !important;
+    margin-bottom: 10px;
+  }
+}

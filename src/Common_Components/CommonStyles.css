@@ -1,0 +1,506 @@
+.HalfTextHalgImg_text {
+  font-size: 23px;
+  padding: 10px;
+}
+.cardBodyContainer {
+  height: 500px;
+  width: 250px;
+  background-color: black;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+.titleContainer_before {
+  width: 250px;
+  height: 50px;
+  color: black;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7518;
+
+  border-radius: 10px;
+  border: 1px solid #c04d00;
+  transition: 0.5s;
+}
+.titleContainer_After {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  color: white;
+  top: 100px;
+  border-radius: 10px;
+  display: flex;
+  border: 3px solid #ff7518;
+  align-items: center;
+  box-shadow: 0px 0px 10px #ff7518;
+  justify-content: center;
+  background-color: #642700d8;
+  transition: 0.5s;
+}
+.cardText {
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  height: 240px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardOuterBody {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  transition: 0.5s linear;
+}
+
+.CardOuterBody:hover {
+  height: 500px;
+  width: 250px;
+
+  transition: 0.5s linear;
+}
+
+.RoundedCardContainer {
+  width: 235px;
+  height: 410px;
+  background-color: white;
+
+  padding: 20px;
+  margin: 8px;
+  border-radius: 155px;
+  overflow: hidden;
+}
+
+.RoundedCardImgContainer {
+  width: 160px;
+  background-color: black;
+  height: 160px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  margin-top: 05px;
+}
+.RoundedCardImg {
+  width: 100%;
+  height: 160px;
+}
+
+.RoundedCardTitle {
+  color: #ff7518;
+  margin: 10px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.RoundedCardParagraphContainer {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 135px;
+  overflow: auto;
+}
+.RoundedCardParagraph {
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+}
+.OrangrCircleContainer {
+  background-color: #FF954D;
+  width: 178px;
+  height: 178px;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+ 
+  overflow: hidden;
+  flex-direction: column;
+  transition: 0.7s;
+}
+.OrangrCircleText {
+  display: none;
+  transition: 0.5s;
+}
+.OrangrCircleContainer2 {
+  background-color: #ff954d;
+  width: 178px;
+  height: 400px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  
+  overflow: hidden;
+  flex-direction: column;
+  transition: 0.8s;
+}
+
+.OrangrCircleText2 {
+  
+  display: block;
+  transition: 0.5s;
+}
+.OrangrCircleImgContainer {
+  width: 80%;
+  height: 80px;
+}
+.OrangrCircleImg {
+  width: 100%;
+  height: 80px;
+  padding: 0px 13px;
+}
+.OrangrCircletitle {
+  color: white;
+  margin-top: 20px;
+}
+.BlackBox {
+  background-color: rgb(41, 41, 41);
+  padding: 20px 40px;
+  color: white;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.OrangeBox {
+  background-color: #ff7518;
+  color: black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 16px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.OrangeBox .BoxesParagraph {
+  color: black;
+}
+.BoxesParagraph {
+  text-align: left;
+}
+.BoxesTitle {
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+.pageNameContaioner {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.pageNameContaioner h2 {
+  position: absolute;
+  left: 80px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.CommonHeadings {
+  color: #ff7518;
+  font-weight: bolder;
+  font-size: 27px;
+  margin: 0px 0px;
+  padding: 20px 0px;
+}
+
+.ServicesCardContainer {
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.ServicesCardContainer:hover {
+  height: 250px;
+  transition: 0.3s;
+  width: 260px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ServicesCardNameContainer {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 95%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s linear;
+}
+
+.ServicesCardNameContainer:hover {
+  background-color: #ff7518;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s linear;
+}
+
+.ServicesCardImgContainer {
+  overflow: hidden;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  height: 190px;
+
+  width: 190px;
+  transition: 0.2s;
+}
+.ServicesCardImgContainer img {
+  height: 190px;
+  width: 190px;
+  transition: 0.3s;
+}
+.ServicesCardImgContainer img:hover {
+  height: 195px;
+  width: 195px;
+  transition: 0.3s;
+}
+.ServicesCardImgContainer:hover {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  box-shadow: 0px 0px 12px #cc5c12;
+  transition: 0.2s;
+}
+
+.bannerContainer {
+  background-image: url("../Images//BannerBGPic.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  margin: 30px 0px;
+}
+.bannerContainer p {
+  color: white;
+  font-weight: 700;
+  font-size: 23px;
+  margin: 0px;
+}
+.BannerButton button {
+  font-weight: 800;
+  color: white;
+  font-size: 20px;
+  padding: 15px 15px;
+  background-color: #ff7518;
+  border: 1px solid #ff7518;
+  box-shadow: 0px 0px 10px #000000;
+}
+.BannerButton button:hover {
+  font-weight: 800;
+  border: 1px solid white;
+  padding: 15px 15px;
+  color: white;
+  box-shadow: 0px 0px 10px #ff7518;
+  background-color: black;
+}
+
+.TextImgCardContainer {
+  height: 300px;
+  width: 230px;
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.TextImgCardHeadingContainer {
+  color: white;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.TextImgCardImgContainer {
+  width: 100%;
+  height: 246px;
+  border-radius: 10px;
+  overflow: auto;
+}
+.TextImgCardImgContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .HalfTextHalgImg_text {
+    font-size: 19px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bannerContainer {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 04px;
+    margin: 10px 0px;
+  }
+  .OrangrCircleContainer {
+    background-color: #ff954d;
+    width: 178px;
+    height: 430px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    
+    overflow: hidden;
+    flex-direction: column;
+    transition: 0.8s;
+  }
+  .OrangrCircleText {
+    display: block;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pageNameContaioner h2 {
+    position: absolute;
+    left: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+  .bannerContainer {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 04px;
+    margin: 10px 0px;
+  }
+
+  .bannerContainer p {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .BannerButton button {
+    font-weight: 800;
+    padding: 10px 10px;
+    border: 1px solid #ff7518;
+    box-shadow: 0px 0px 10px #000000;
+    margin-top: 20px;
+  }
+  .BannerButton button:hover {
+    font-weight: 800;
+    border: 1px solid white;
+    padding: 10px 10px;
+    color: white;
+    box-shadow: 0px 0px 10px #ff7518;
+    background-color: black;
+  }
+
+  .HalfTextHalgImg_text {
+    font-size: 17px;
+    padding: 5px;
+  }
+  .pageNameContaioner {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .ContactUSFormContainer {
+    background-color: #252424;
+    padding: 20px 0px;
+    margin: 5px;
+  }
+
+  .BlackBox {
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .pageNameContaioner {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .ContactUSFormContainer {
+    background-color: #252424;
+    padding: 20px 0px;
+    margin: 5px;
+  }
+
+  .BlackBox {
+    padding: 12px 12px;
+    color: white;
+    margin: 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  .OrangeBox {
+    background-color: #ff7518;
+    color: black;
+    border-radius: 12px;
+    margin: 0px;
+    padding: 12px 12px;
+    margin-top: 20px;
+    font-size: 16px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container-fluid {
+    width: 100% !important;
+    margin: 1px !important;
+    padding: 0px !important;
+  }
+  .HalfTextHalgImg_text {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .row {
+    width: 100% !important;
+  }
+}
